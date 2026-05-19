@@ -26,14 +26,14 @@ The pipeline is split into three independent, well-documented scripts each repre
 
 # SQL Analysis
 ## Eight analytical queries are run and printed with full transcripts:
-- Patient summary by condition — count, avg age, avg cholesterol, avg systolic BP
-- Blood pressure by gender — avg systolic, diastolic, and cholesterol per gender group
-- Medication frequency by condition — count + % share within each condition (window function)
-- Yearly & monthly visit volume — visit trend over time
-- High-risk patients — SBP ≥ 140 AND Cholesterol > 200, ordered by severity
-- BP category distribution — breakdown of Normal/Elevated/High per condition
-- Risk indicators by age group — % high cholesterol, avg BP, % medicated
-- Unmedicated high-risk patients — patients who may need clinical intervention
+- Patient summary by condition - count, avg age, avg cholesterol, avg systolic BP
+- Blood pressure by gender - avg systolic, diastolic, and cholesterol per gender group
+- Medication frequency by condition - count + % share within each condition (window function)
+- Yearly & monthly visit volume - visit trend over time
+- High-risk patients - SBP ≥ 140 AND Cholesterol > 200, ordered by severity
+- BP category distribution - breakdown of Normal/Elevated/High per condition
+- Risk indicators by age group - % high cholesterol, avg BP, % medicated
+- Unmedicated high-risk patients - patients who may need clinical intervention
 
 # Key findings:
 - Asthma is the most common condition (415 patients, 41.6%)
