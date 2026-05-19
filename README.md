@@ -2,7 +2,7 @@
 End to end data Health Care project
 ## Project Overview
 This project demonstrates a production-style data pipeline built on a deliberately messy healthcare dataset of 1,000 patient records. The raw data contains mixed date formats, text-encoded numbers, placeholder contact details, duplicate rows, and ~38% missing values across key columns.
-The pipeline is split into three independent, well-documented scripts — each representing a distinct skill area for a data science portfolio.
+The pipeline is split into three independent, well-documented scripts each representing a distinct skill area for a data science portfolio.
 
 # Python Data Cleaning
 - Input: healthcare_messy_data.csv is loaded using pandas
