@@ -35,12 +35,6 @@ The pipeline is split into three independent, well-documented scripts each repre
 - Risk indicators by age group - % high cholesterol, avg BP, % medicated
 - Unmedicated high-risk patients - patients who may need clinical intervention
 
-# Key findings:
-- Asthma is the most common condition (415 patients, 41.6%)
-- 125 patients are high-risk but currently unmedicated
-- Blood pressure averages are consistent across gender groups (~126 mmHg systolic)
-- Visit volume peaked in 2019 (408 visits)
-
 # Machine Learning:
 -
 -
