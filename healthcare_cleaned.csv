@@ -1,0 +1,996 @@
+Patient Name,Age,Gender,Condition,Medication,Visit Date,Blood Pressure,Cholesterol,Email,Phone Number,Visit_Year,Visit_Month,BP_Systolic,BP_Diastolic,Age_Group,High_Cholesterol,On_Medication
+David Lee,25,Other,Heart Disease,Metformin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Young,0,1
+Emily Davis,40,Male,Diabetes,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,0
+Laura Martinez,35,Other,Asthma,Metformin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,40,Male,Diabetes,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+David Lee,40,Female,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Mary Clark,40,Male,Hypertension,Metformin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,40,Male,Hypertension,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+David Lee,60,Other,Asthma,None,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,0
+Laura Martinez,60,Other,Heart Disease,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,0
+Michael Wilson,40,Female,Asthma,Albuterol,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Emily Davis,25,Male,Asthma,Atorvastatin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Young,0,1
+Laura Martinez,40,Male,Asthma,Atorvastatin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,40,Male,Diabetes,Albuterol,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,25,Female,Asthma,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+Sarah Johnson,70,Female,Hypertension,Albuterol,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Senior,1,1
+Michael Wilson,35,Female,Heart Disease,Atorvastatin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,60,Female,Asthma,Albuterol,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,1
+Laura Martinez,70,Female,Asthma,Metformin,2020-01-15,130/85,160.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Sarah Johnson,25,Other,Diabetes,None,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Young,0,0
+Jane Smith,70,Male,Heart Disease,None,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Senior,0,0
+Michael Wilson,35,Male,Hypertension,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+John Doe,25,Male,Asthma,Lisinopril,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Young,0,1
+Mary Clark,70,Male,Asthma,None,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Senior,1,0
+Sarah Johnson,60,Male,Diabetes,Metformin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+James Taylor,60,Male,Asthma,Atorvastatin,2020-01-15,,220.0,,1234567890,2020,1,130.0,85.0,Senior,1,1
+John Doe,40,Male,Hypertension,Atorvastatin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,1
+Mary Clark,70,Male,Heart Disease,Metformin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,40,Other,Asthma,Atorvastatin,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Adult,1,1
+David Lee,70,Male,Asthma,Albuterol,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+Emily Davis,25,Other,Hypertension,None,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Young,0,0
+James Taylor,25,Female,Asthma,None,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Young,0,0
+Robert Brown,70,Male,Asthma,Metformin,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Senior,1,1
+Michael Wilson,35,Female,Hypertension,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Robert Brown,60,Female,Diabetes,Lisinopril,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+David Lee,25,Female,Asthma,Lisinopril,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Michael Wilson,60,Other,Heart Disease,Atorvastatin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+James Taylor,25,Female,Asthma,Lisinopril,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Young,0,1
+David Lee,40,Female,Hypertension,Metformin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,40,Female,Diabetes,Metformin,2020-01-15,110/70,220.0,,1234567890,2020,1,110.0,70.0,Adult,1,1
+Emily Davis,25,Male,Heart Disease,Atorvastatin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Young,0,1
+James Taylor,60,Male,Hypertension,Lisinopril,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Jane Smith,40,Other,Hypertension,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Mary Clark,25,Other,Heart Disease,Metformin,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Young,0,1
+James Taylor,35,Male,Diabetes,Albuterol,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,40,Other,Diabetes,Albuterol,2020-01-15,,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Michael Wilson,25,Male,Asthma,Metformin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Young,1,1
+Jane Smith,40,Female,Asthma,Atorvastatin,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,35,Female,Heart Disease,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,0
+David Lee,70,Other,Heart Disease,None,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,0
+Laura Martinez,40,Male,Heart Disease,Metformin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,40,Male,Diabetes,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,35,Other,Asthma,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,40,Male,Asthma,Atorvastatin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,35,Female,Hypertension,Albuterol,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,25,Other,Hypertension,Metformin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Young,1,1
+Emily Davis,35,Other,Heart Disease,Metformin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+Jane Smith,35,Male,Asthma,Lisinopril,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,40,Other,Diabetes,Atorvastatin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Sarah Johnson,35,Male,Asthma,Metformin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,35,Male,Asthma,Lisinopril,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,70,Male,Diabetes,None,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Senior,0,0
+Sarah Johnson,25,Male,Heart Disease,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Young,0,1
+Jane Smith,40,Male,Asthma,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,70,Other,Hypertension,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Jane Smith,60,Female,Diabetes,Atorvastatin,2020-01-15,120/80,220.0,,0987654321,2020,1,120.0,80.0,Senior,1,1
+Mary Clark,25,Female,Asthma,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Young,0,1
+Emily Davis,25,Other,Heart Disease,None,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,0
+Laura Martinez,60,Other,Diabetes,Metformin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Senior,1,1
+David Lee,35,Female,Asthma,None,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,0
+James Taylor,70,Female,Asthma,Albuterol,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,40,Female,Asthma,Albuterol,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Michael Wilson,40,Female,Asthma,None,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,0
+Jane Smith,40,Female,Asthma,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,60,Male,Diabetes,Metformin,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Senior,1,1
+Laura Martinez,25,Other,Diabetes,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+Mary Clark,25,Male,Heart Disease,Albuterol,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Young,1,1
+James Taylor,40,Female,Asthma,None,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,0
+James Taylor,25,Female,Asthma,Metformin,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Young,1,1
+John Doe,25,Female,Hypertension,Metformin,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+James Taylor,40,Male,Heart Disease,Atorvastatin,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+David Lee,70,Male,Diabetes,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,1
+James Taylor,70,Female,Heart Disease,Albuterol,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,40,Male,Heart Disease,Albuterol,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+John Doe,60,Male,Heart Disease,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,25,Female,Heart Disease,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Young,0,1
+Laura Martinez,25,Male,Hypertension,Atorvastatin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Young,0,1
+Robert Brown,60,Other,Asthma,Atorvastatin,2020-01-15,,220.0,,1234567890,2020,1,130.0,85.0,Senior,1,1
+John Doe,70,Other,Asthma,Albuterol,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,1
+Laura Martinez,35,Other,Heart Disease,Atorvastatin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Robert Brown,35,Other,Heart Disease,Lisinopril,2020-01-15,120/80,200.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+Robert Brown,35,Female,Heart Disease,Metformin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,1
+John Doe,70,Female,Asthma,Lisinopril,2020-01-15,,220.0,,0987654321,2020,1,130.0,85.0,Senior,1,1
+Michael Wilson,70,Female,Diabetes,None,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,0
+Mary Clark,60,Other,Diabetes,Albuterol,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+David Lee,25,Other,Hypertension,Atorvastatin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Young,1,1
+Mary Clark,60,Male,Diabetes,None,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Senior,0,0
+James Taylor,60,Male,Heart Disease,Atorvastatin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,1
+David Lee,70,Other,Heart Disease,Metformin,2020-01-15,120/80,200.0,,1234567890,2020,1,120.0,80.0,Senior,0,1
+James Taylor,35,Other,Heart Disease,Metformin,2020-01-15,,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,40,Other,Hypertension,Metformin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,25,Other,Heart Disease,Atorvastatin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Young,1,1
+John Doe,70,Male,Diabetes,None,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,0
+David Lee,35,Other,Asthma,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,40,Male,Asthma,None,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Adult,1,0
+Laura Martinez,40,Other,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Michael Wilson,70,Other,Diabetes,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,0
+Robert Brown,40,Other,Heart Disease,Atorvastatin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Laura Martinez,25,Male,Asthma,Atorvastatin,2020-01-15,,220.0,,,2020,1,130.0,85.0,Young,1,1
+Sarah Johnson,40,Male,Diabetes,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,70,Female,Asthma,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,1
+John Doe,70,Other,Heart Disease,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,35,Female,Asthma,Lisinopril,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
+Michael Wilson,40,Female,Asthma,Metformin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,25,Male,Asthma,Albuterol,2020-01-15,110/70,200.0,,1234567890,2020,1,110.0,70.0,Young,0,1
+John Doe,60,Male,Asthma,Albuterol,2020-01-15,120/80,220.0,,0987654321,2020,1,120.0,80.0,Senior,1,1
+Michael Wilson,35,Female,Diabetes,Albuterol,2020-01-15,120/80,200.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+Mary Clark,40,Other,Diabetes,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,40,Male,Diabetes,Atorvastatin,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+David Lee,35,Other,Asthma,Metformin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+James Taylor,70,Other,Diabetes,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,0
+Mary Clark,40,Female,Heart Disease,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,40,Female,Asthma,Lisinopril,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,25,Female,Heart Disease,Atorvastatin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Young,0,1
+David Lee,40,Female,Diabetes,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,40,Male,Heart Disease,Lisinopril,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,60,Male,Diabetes,Albuterol,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Senior,1,1
+Emily Davis,25,Female,Asthma,Albuterol,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Young,0,1
+Michael Wilson,25,Male,Heart Disease,Metformin,2020-01-15,,160.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+David Lee,35,Female,Asthma,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,35,Other,Asthma,Albuterol,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,60,Other,Hypertension,None,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,0
+David Lee,70,Other,Diabetes,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+Robert Brown,25,Female,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,0
+Sarah Johnson,60,Other,Diabetes,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+Jane Smith,35,Male,Asthma,Albuterol,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,35,Other,Diabetes,Metformin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,1
+James Taylor,25,Other,Asthma,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Young,0,1
+Michael Wilson,40,Other,Heart Disease,None,2020-01-15,,200.0,,,2020,1,130.0,85.0,Adult,0,0
+Sarah Johnson,40,Male,Heart Disease,Metformin,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,35,Female,Hypertension,Albuterol,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,70,Male,Asthma,None,2020-01-15,,220.0,,,2020,1,130.0,85.0,Senior,1,0
+David Lee,70,Female,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+James Taylor,35,Female,Asthma,Metformin,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+David Lee,40,Other,Asthma,Lisinopril,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,1
+John Doe,40,Female,Asthma,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+John Doe,60,Male,Heart Disease,Atorvastatin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+James Taylor,70,Male,Asthma,None,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,0
+James Taylor,60,Female,Diabetes,Atorvastatin,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Emily Davis,70,Other,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+James Taylor,40,Other,Asthma,Albuterol,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,1
+Robert Brown,40,Male,Diabetes,Metformin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+David Lee,25,Other,Asthma,None,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Young,0,0
+Sarah Johnson,60,Female,Diabetes,Albuterol,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+Laura Martinez,35,Female,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+James Taylor,60,Male,Heart Disease,None,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,0
+Michael Wilson,35,Female,Diabetes,Albuterol,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+John Doe,40,Male,Hypertension,None,2020-01-15,,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,0
+Robert Brown,60,Female,Diabetes,Lisinopril,2020-01-15,110/70,200.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+Mary Clark,40,Male,Asthma,Lisinopril,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,40,Other,Asthma,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,40,Female,Asthma,Metformin,2020-01-15,,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Laura Martinez,25,Female,Diabetes,Lisinopril,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+James Taylor,60,Male,Heart Disease,None,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Senior,0,0
+Emily Davis,40,Male,Hypertension,Lisinopril,2020-01-15,110/70,220.0,,1234567890,2020,1,110.0,70.0,Adult,1,1
+John Doe,35,Female,Asthma,Metformin,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+John Doe,40,Male,Asthma,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,40,Female,Asthma,Lisinopril,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,35,Other,Heart Disease,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,0
+David Lee,40,Male,Asthma,Albuterol,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,40,Female,Diabetes,Metformin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,60,Other,Asthma,None,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,0
+John Doe,60,Other,Heart Disease,Lisinopril,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,70,Female,Asthma,Lisinopril,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+John Doe,70,Male,Asthma,Albuterol,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,25,Female,Asthma,Metformin,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Young,0,1
+John Doe,40,Other,Asthma,Metformin,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
+John Doe,60,Female,Asthma,Atorvastatin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Jane Smith,40,Male,Asthma,Metformin,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Adult,1,1
+Jane Smith,35,Other,Heart Disease,Albuterol,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,1
+Sarah Johnson,40,Female,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+David Lee,40,Male,Hypertension,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,70,Other,Hypertension,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+John Doe,40,Male,Heart Disease,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+John Doe,25,Other,Diabetes,Metformin,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Robert Brown,40,Female,Diabetes,Atorvastatin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+Jane Smith,70,Male,Diabetes,Lisinopril,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+Michael Wilson,35,Other,Hypertension,Albuterol,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,70,Male,Diabetes,Lisinopril,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Senior,1,1
+Sarah Johnson,25,Male,Asthma,Lisinopril,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Young,0,1
+David Lee,40,Female,Asthma,Atorvastatin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Emily Davis,35,Male,Hypertension,Atorvastatin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,1
+David Lee,25,Other,Heart Disease,None,2020-01-15,,200.0,,,2020,1,130.0,85.0,Young,0,0
+Laura Martinez,70,Other,Heart Disease,Albuterol,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+John Doe,25,Other,Asthma,Atorvastatin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Young,0,1
+Sarah Johnson,40,Other,Hypertension,Metformin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,60,Female,Diabetes,Albuterol,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,1
+Michael Wilson,25,Male,Diabetes,Albuterol,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Young,0,1
+Emily Davis,25,Female,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Jane Smith,70,Male,Asthma,Albuterol,2020-01-15,110/70,200.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+Sarah Johnson,70,Male,Diabetes,Atorvastatin,2020-01-15,110/70,200.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Sarah Johnson,35,Male,Heart Disease,Lisinopril,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,70,Female,Heart Disease,None,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,0
+James Taylor,40,Male,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Sarah Johnson,40,Female,Asthma,Atorvastatin,2020-01-15,140/90,160.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,40,Other,Diabetes,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Emily Davis,60,Other,Asthma,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+Emily Davis,60,Male,Asthma,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,40,Female,Diabetes,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Mary Clark,60,Other,Diabetes,Metformin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,1
+Robert Brown,35,Female,Heart Disease,Atorvastatin,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Adult,1,1
+Robert Brown,70,Female,Asthma,Albuterol,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Emily Davis,40,Male,Asthma,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+David Lee,60,Other,Diabetes,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,1
+Emily Davis,40,Male,Hypertension,Lisinopril,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+James Taylor,40,Male,Asthma,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,0
+John Doe,25,Other,Asthma,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+Laura Martinez,70,Other,Diabetes,Metformin,2020-01-15,110/70,200.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+David Lee,40,Female,Hypertension,Atorvastatin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,1
+Jane Smith,25,Other,Heart Disease,Lisinopril,2020-01-15,,200.0,,,2020,1,130.0,85.0,Young,0,1
+Laura Martinez,60,Female,Diabetes,Metformin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+John Doe,25,Female,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+James Taylor,70,Female,Asthma,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,0
+James Taylor,40,Other,Diabetes,Atorvastatin,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Adult,1,1
+Jane Smith,40,Male,Diabetes,Atorvastatin,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+David Lee,60,Female,Diabetes,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,0
+Mary Clark,40,Male,Asthma,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,70,Male,Heart Disease,Albuterol,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+David Lee,60,Other,Heart Disease,Lisinopril,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,35,Male,Diabetes,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+James Taylor,25,Male,Asthma,None,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Young,1,0
+Emily Davis,70,Other,Heart Disease,Albuterol,2020-01-15,110/70,200.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+John Doe,35,Female,Heart Disease,Metformin,2020-01-15,,220.0,,0987654321,2020,1,130.0,85.0,Adult,1,1
+Jane Smith,40,Male,Heart Disease,Metformin,2020-01-15,120/80,200.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+John Doe,40,Other,Asthma,None,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,0
+Michael Wilson,60,Male,Asthma,Albuterol,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+Michael Wilson,25,Male,Diabetes,Metformin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Young,0,1
+David Lee,60,Female,Asthma,Metformin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,1
+James Taylor,40,Male,Heart Disease,Albuterol,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+James Taylor,60,Other,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,25,Male,Asthma,Metformin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Young,0,1
+Robert Brown,40,Female,Asthma,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,60,Female,Asthma,Albuterol,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Emily Davis,40,Other,Asthma,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,70,Female,Asthma,None,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,0
+Sarah Johnson,40,Male,Diabetes,Lisinopril,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Laura Martinez,70,Female,Asthma,Metformin,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+John Doe,40,Other,Hypertension,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,40,Female,Asthma,Lisinopril,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+Emily Davis,70,Female,Hypertension,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+John Doe,35,Female,Asthma,Lisinopril,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,25,Other,Diabetes,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Young,0,1
+Emily Davis,35,Female,Heart Disease,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Sarah Johnson,60,Female,Asthma,Atorvastatin,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Senior,1,1
+Laura Martinez,40,Male,Diabetes,None,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,0
+Emily Davis,35,Other,Asthma,Metformin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Robert Brown,40,Female,Hypertension,Albuterol,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+James Taylor,60,Other,Hypertension,Albuterol,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Robert Brown,60,Female,Hypertension,None,2020-01-15,120/80,160.0,,0987654321,2020,1,120.0,80.0,Senior,0,0
+James Taylor,35,Female,Asthma,Atorvastatin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Jane Smith,35,Female,Diabetes,Metformin,2020-01-15,,160.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,40,Male,Asthma,Atorvastatin,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,25,Male,Hypertension,Lisinopril,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Young,1,1
+Sarah Johnson,35,Male,Asthma,Atorvastatin,2020-01-15,120/80,160.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+Robert Brown,35,Other,Heart Disease,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+James Taylor,70,Other,Asthma,Metformin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Emily Davis,40,Male,Asthma,Atorvastatin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+John Doe,70,Other,Diabetes,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Emily Davis,70,Female,Diabetes,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+John Doe,60,Female,Asthma,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,25,Female,Hypertension,Lisinopril,2020-01-15,,160.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Emily Davis,40,Male,Heart Disease,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,40,Other,Diabetes,None,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,0
+Laura Martinez,40,Male,Hypertension,Metformin,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Adult,1,1
+David Lee,35,Other,Asthma,None,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,0
+Robert Brown,35,Female,Diabetes,Albuterol,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,40,Male,Hypertension,Metformin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+John Doe,35,Other,Hypertension,Metformin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,25,Other,Heart Disease,None,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Young,0,0
+Sarah Johnson,70,Female,Heart Disease,Atorvastatin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+David Lee,35,Male,Asthma,Lisinopril,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Sarah Johnson,60,Male,Hypertension,Atorvastatin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Sarah Johnson,35,Male,Hypertension,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+Sarah Johnson,40,Female,Heart Disease,Lisinopril,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+Robert Brown,25,Male,Diabetes,Atorvastatin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Sarah Johnson,40,Female,Diabetes,Lisinopril,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,40,Female,Asthma,Metformin,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Jane Smith,60,Female,Heart Disease,Atorvastatin,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,25,Other,Asthma,Lisinopril,2020-01-15,,200.0,,,2020,1,130.0,85.0,Young,0,1
+John Doe,25,Male,Heart Disease,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+John Doe,25,Male,Asthma,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Young,0,1
+Michael Wilson,25,Female,Hypertension,Atorvastatin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Young,0,1
+Robert Brown,25,Female,Asthma,Albuterol,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Young,0,1
+Emily Davis,60,Male,Heart Disease,Atorvastatin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+Robert Brown,35,Female,Hypertension,None,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,0
+John Doe,40,Male,Diabetes,Atorvastatin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+John Doe,25,Other,Diabetes,Lisinopril,2020-01-15,130/85,220.0,,0987654321,2020,1,130.0,85.0,Young,1,1
+Michael Wilson,35,Female,Asthma,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,35,Male,Heart Disease,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Robert Brown,40,Female,Heart Disease,Atorvastatin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+James Taylor,60,Male,Diabetes,Lisinopril,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,40,Male,Asthma,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,40,Female,Hypertension,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,35,Other,Asthma,None,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,0
+Michael Wilson,70,Male,Asthma,Atorvastatin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,1
+Robert Brown,70,Male,Diabetes,Metformin,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+John Doe,40,Male,Diabetes,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Emily Davis,40,Other,Diabetes,Albuterol,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Michael Wilson,35,Other,Asthma,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+David Lee,60,Female,Asthma,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+John Doe,40,Other,Heart Disease,None,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,0
+Robert Brown,35,Female,Hypertension,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,35,Female,Asthma,Lisinopril,2020-01-15,,220.0,,,2020,1,130.0,85.0,Adult,1,1
+James Taylor,25,Other,Heart Disease,Atorvastatin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Young,0,1
+Mary Clark,60,Female,Asthma,None,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,0
+Sarah Johnson,25,Other,Diabetes,Lisinopril,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Young,0,1
+Mary Clark,40,Female,Asthma,None,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,0
+Robert Brown,25,Other,Hypertension,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Young,0,1
+Laura Martinez,25,Other,Asthma,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+Laura Martinez,40,Female,Asthma,Atorvastatin,2020-01-15,120/80,220.0,,0987654321,2020,1,120.0,80.0,Adult,1,1
+Jane Smith,70,Male,Hypertension,Albuterol,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Sarah Johnson,35,Female,Heart Disease,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+David Lee,60,Other,Heart Disease,Albuterol,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+Jane Smith,25,Male,Asthma,Lisinopril,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Young,1,1
+Mary Clark,60,Female,Asthma,Albuterol,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Senior,1,1
+Jane Smith,70,Female,Diabetes,Atorvastatin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,70,Female,Heart Disease,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,0
+John Doe,25,Male,Hypertension,Albuterol,2020-01-15,,200.0,,,2020,1,130.0,85.0,Young,0,1
+Laura Martinez,40,Other,Heart Disease,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,25,Female,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+James Taylor,40,Female,Asthma,Atorvastatin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,35,Female,Asthma,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,40,Female,Diabetes,Metformin,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,25,Female,Hypertension,None,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Young,0,0
+David Lee,60,Other,Asthma,Albuterol,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,40,Other,Asthma,None,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,0
+Robert Brown,40,Female,Asthma,Atorvastatin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,1
+Jane Smith,25,Male,Asthma,Albuterol,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Young,0,1
+James Taylor,40,Other,Diabetes,Albuterol,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,60,Male,Diabetes,Metformin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Mary Clark,70,Other,Asthma,Atorvastatin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,1
+David Lee,40,Female,Heart Disease,Lisinopril,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+James Taylor,70,Other,Asthma,Metformin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Emily Davis,60,Female,Hypertension,Metformin,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Senior,1,1
+Emily Davis,25,Other,Asthma,None,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Young,0,0
+John Doe,35,Female,Hypertension,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+Laura Martinez,40,Female,Asthma,None,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,0
+Robert Brown,35,Female,Heart Disease,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,60,Female,Heart Disease,Lisinopril,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Jane Smith,40,Male,Heart Disease,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,70,Female,Heart Disease,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,0
+David Lee,40,Male,Diabetes,Lisinopril,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Sarah Johnson,35,Male,Diabetes,Atorvastatin,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Adult,0,1
+Robert Brown,40,Female,Asthma,None,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,0
+James Taylor,35,Male,Hypertension,Albuterol,2020-01-15,110/70,200.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,40,Other,Asthma,Atorvastatin,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,25,Female,Asthma,Atorvastatin,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Young,0,1
+Mary Clark,70,Male,Diabetes,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,35,Female,Asthma,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,0
+Sarah Johnson,40,Female,Diabetes,Metformin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+John Doe,40,Female,Asthma,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Emily Davis,60,Male,Hypertension,Albuterol,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,40,Other,Asthma,Albuterol,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Sarah Johnson,35,Other,Heart Disease,Atorvastatin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Sarah Johnson,60,Male,Heart Disease,Lisinopril,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,1
+Michael Wilson,35,Female,Heart Disease,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+John Doe,40,Male,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Laura Martinez,40,Male,Asthma,None,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,0
+Michael Wilson,25,Male,Hypertension,Lisinopril,2020-01-15,,220.0,,,2020,1,130.0,85.0,Young,1,1
+Michael Wilson,40,Female,Heart Disease,Albuterol,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+David Lee,60,Male,Heart Disease,Metformin,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Senior,0,1
+Emily Davis,70,Female,Heart Disease,None,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Senior,0,0
+Sarah Johnson,25,Male,Hypertension,None,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Young,0,0
+Emily Davis,60,Other,Heart Disease,Albuterol,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,40,Male,Hypertension,Lisinopril,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
+David Lee,25,Male,Heart Disease,Metformin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Young,0,1
+Laura Martinez,60,Other,Asthma,Lisinopril,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Senior,0,1
+Emily Davis,40,Female,Asthma,Lisinopril,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,40,Female,Hypertension,Metformin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,70,Male,Asthma,Metformin,2020-01-15,120/80,200.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Robert Brown,40,Other,Hypertension,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+John Doe,35,Female,Asthma,None,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,0
+Laura Martinez,40,Male,Asthma,Metformin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,40,Other,Hypertension,Atorvastatin,2020-01-15,,160.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,70,Female,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,0
+David Lee,35,Female,Asthma,Atorvastatin,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,60,Other,Heart Disease,Metformin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Michael Wilson,60,Other,Asthma,None,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,0
+Mary Clark,40,Other,Hypertension,Lisinopril,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
+Michael Wilson,35,Other,Asthma,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,35,Male,Diabetes,Albuterol,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+James Taylor,70,Other,Diabetes,Atorvastatin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,40,Female,Asthma,Metformin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+John Doe,60,Female,Asthma,Metformin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,1
+Mary Clark,70,Male,Heart Disease,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,0
+Mary Clark,25,Female,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,0
+John Doe,60,Female,Diabetes,None,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,0
+Jane Smith,70,Other,Asthma,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,1
+Sarah Johnson,60,Female,Asthma,None,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,0
+James Taylor,40,Male,Asthma,Metformin,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,25,Other,Asthma,None,2020-01-15,130/85,160.0,,0987654321,2020,1,130.0,85.0,Young,0,0
+Michael Wilson,40,Other,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,25,Male,Diabetes,None,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Young,0,0
+David Lee,40,Other,Asthma,Albuterol,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Sarah Johnson,25,Male,Asthma,Metformin,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Young,1,1
+David Lee,40,Other,Asthma,Metformin,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,60,Male,Heart Disease,Atorvastatin,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Mary Clark,25,Male,Heart Disease,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Young,0,1
+Robert Brown,70,Female,Heart Disease,Atorvastatin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,25,Female,Hypertension,Lisinopril,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Young,0,1
+Sarah Johnson,35,Other,Hypertension,Lisinopril,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+James Taylor,60,Other,Asthma,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,70,Male,Heart Disease,Atorvastatin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+John Doe,70,Other,Hypertension,Albuterol,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Emily Davis,40,Male,Diabetes,Lisinopril,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Michael Wilson,40,Male,Asthma,Metformin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,40,Other,Asthma,Lisinopril,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Adult,1,1
+Mary Clark,70,Male,Asthma,Albuterol,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,60,Female,Asthma,Atorvastatin,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Senior,1,1
+David Lee,25,Other,Heart Disease,Atorvastatin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Young,1,1
+Emily Davis,25,Female,Asthma,Albuterol,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Young,0,1
+John Doe,60,Other,Heart Disease,Atorvastatin,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,70,Male,Diabetes,None,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,0
+David Lee,25,Other,Asthma,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Young,0,1
+Mary Clark,25,Female,Asthma,Metformin,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Mary Clark,25,Male,Heart Disease,Metformin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Young,0,1
+Sarah Johnson,40,Other,Asthma,Atorvastatin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+Michael Wilson,40,Other,Hypertension,Atorvastatin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,35,Other,Heart Disease,Lisinopril,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,40,Female,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,60,Female,Heart Disease,Metformin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Mary Clark,60,Other,Asthma,None,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,0
+Mary Clark,60,Male,Diabetes,Lisinopril,2020-01-15,120/80,160.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Robert Brown,35,Male,Heart Disease,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Mary Clark,40,Female,Asthma,Atorvastatin,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+John Doe,70,Male,Hypertension,None,2020-01-15,120/80,200.0,,0987654321,2020,1,120.0,80.0,Senior,0,0
+Laura Martinez,70,Female,Diabetes,Metformin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,35,Other,Hypertension,Lisinopril,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+Emily Davis,70,Female,Heart Disease,None,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Senior,1,0
+Laura Martinez,60,Female,Asthma,None,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,0
+David Lee,40,Other,Asthma,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,25,Male,Asthma,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Young,0,0
+John Doe,40,Female,Asthma,None,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,0
+Emily Davis,40,Female,Diabetes,None,2020-01-15,110/70,200.0,,1234567890,2020,1,110.0,70.0,Adult,0,0
+Laura Martinez,35,Other,Asthma,Lisinopril,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,40,Male,Asthma,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,60,Female,Heart Disease,None,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Senior,0,0
+John Doe,70,Other,Heart Disease,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,0
+John Doe,60,Female,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Robert Brown,35,Other,Hypertension,Metformin,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Michael Wilson,60,Male,Heart Disease,Atorvastatin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Robert Brown,70,Male,Asthma,Lisinopril,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Senior,0,1
+John Doe,40,Male,Asthma,Metformin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+John Doe,35,Male,Asthma,None,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,0
+Laura Martinez,40,Female,Heart Disease,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,40,Male,Asthma,Metformin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,25,Male,Diabetes,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+Jane Smith,25,Male,Asthma,Metformin,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Young,0,1
+Robert Brown,40,Female,Diabetes,Atorvastatin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+David Lee,35,Male,Hypertension,None,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,0
+John Doe,70,Male,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Senior,0,1
+Mary Clark,60,Male,Diabetes,None,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Senior,0,0
+Laura Martinez,60,Other,Heart Disease,None,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Senior,1,0
+Mary Clark,70,Male,Heart Disease,Atorvastatin,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,25,Other,Hypertension,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Young,0,1
+Mary Clark,25,Other,Asthma,Albuterol,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Jane Smith,35,Male,Asthma,Metformin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,40,Other,Asthma,Albuterol,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+James Taylor,40,Male,Hypertension,Metformin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,25,Female,Asthma,Metformin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Young,1,1
+Emily Davis,60,Female,Heart Disease,None,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Senior,1,0
+Mary Clark,35,Female,Diabetes,Metformin,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Michael Wilson,40,Female,Heart Disease,Metformin,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,35,Other,Heart Disease,Atorvastatin,2020-01-15,110/70,220.0,,1234567890,2020,1,110.0,70.0,Adult,1,1
+Laura Martinez,40,Male,Diabetes,Albuterol,2020-01-15,,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Emily Davis,40,Male,Heart Disease,Atorvastatin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+James Taylor,70,Male,Hypertension,Metformin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,25,Female,Diabetes,None,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Young,1,0
+James Taylor,35,Female,Heart Disease,Atorvastatin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Emily Davis,35,Male,Asthma,Atorvastatin,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Mary Clark,70,Female,Heart Disease,Lisinopril,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,60,Male,Hypertension,Metformin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Senior,0,1
+James Taylor,60,Male,Asthma,None,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,0
+Laura Martinez,25,Male,Heart Disease,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Young,0,1
+Robert Brown,25,Male,Asthma,Atorvastatin,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Young,0,1
+John Doe,40,Male,Asthma,None,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,0
+Robert Brown,70,Male,Heart Disease,Metformin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Emily Davis,60,Male,Diabetes,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+Jane Smith,40,Female,Asthma,Atorvastatin,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+John Doe,35,Male,Asthma,Lisinopril,2020-01-15,,220.0,,0987654321,2020,1,130.0,85.0,Adult,1,1
+David Lee,25,Male,Diabetes,Albuterol,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Young,0,1
+Laura Martinez,35,Female,Diabetes,Metformin,2020-01-15,130/85,160.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+David Lee,35,Female,Diabetes,Albuterol,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
+Michael Wilson,40,Female,Diabetes,Albuterol,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,1
+John Doe,60,Male,Heart Disease,Albuterol,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,1
+David Lee,25,Other,Heart Disease,Metformin,2020-01-15,,220.0,,,2020,1,130.0,85.0,Young,1,1
+David Lee,35,Other,Heart Disease,Metformin,2020-01-15,,220.0,,0987654321,2020,1,130.0,85.0,Adult,1,1
+James Taylor,25,Female,Asthma,None,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Young,0,0
+Robert Brown,40,Other,Asthma,Lisinopril,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+James Taylor,40,Female,Asthma,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,40,Male,Hypertension,None,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,0
+John Doe,25,Other,Asthma,None,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Young,0,0
+Emily Davis,25,Male,Heart Disease,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+James Taylor,60,Other,Heart Disease,None,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,0
+Sarah Johnson,35,Male,Hypertension,Atorvastatin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Robert Brown,35,Other,Hypertension,Lisinopril,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+John Doe,40,Male,Asthma,None,2020-01-15,120/80,160.0,,0987654321,2020,1,120.0,80.0,Adult,0,0
+Emily Davis,40,Male,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+James Taylor,70,Other,Hypertension,Atorvastatin,2020-01-15,140/90,160.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Robert Brown,35,Male,Diabetes,Atorvastatin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+James Taylor,60,Male,Heart Disease,Atorvastatin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+David Lee,40,Male,Diabetes,Albuterol,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,40,Other,Heart Disease,Atorvastatin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,70,Other,Heart Disease,Albuterol,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,1
+Mary Clark,60,Male,Hypertension,Albuterol,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,40,Male,Hypertension,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Michael Wilson,60,Other,Diabetes,Lisinopril,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Senior,1,1
+Robert Brown,40,Other,Heart Disease,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+James Taylor,60,Male,Diabetes,Atorvastatin,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Emily Davis,60,Male,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+Michael Wilson,25,Male,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+Emily Davis,40,Female,Asthma,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Michael Wilson,60,Other,Diabetes,Metformin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+David Lee,70,Female,Asthma,Albuterol,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Senior,1,1
+David Lee,35,Other,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,40,Other,Asthma,None,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,0
+Mary Clark,35,Other,Diabetes,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,40,Other,Diabetes,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+David Lee,35,Other,Asthma,Metformin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,60,Other,Heart Disease,Lisinopril,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Senior,0,1
+Michael Wilson,60,Female,Hypertension,Lisinopril,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Senior,1,1
+Robert Brown,25,Male,Diabetes,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Young,1,0
+David Lee,70,Male,Hypertension,None,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,0
+Jane Smith,35,Female,Asthma,Lisinopril,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+James Taylor,40,Female,Heart Disease,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,25,Female,Heart Disease,Metformin,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Young,0,1
+Mary Clark,35,Female,Heart Disease,Atorvastatin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,35,Other,Asthma,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+Sarah Johnson,25,Male,Asthma,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+David Lee,60,Other,Asthma,Albuterol,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,35,Male,Hypertension,None,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,0
+Mary Clark,60,Male,Asthma,Atorvastatin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,1
+James Taylor,25,Female,Asthma,Albuterol,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Young,0,1
+Jane Smith,60,Other,Heart Disease,Metformin,2020-01-15,120/80,160.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Mary Clark,40,Female,Heart Disease,Albuterol,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,40,Other,Hypertension,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,0
+Michael Wilson,35,Male,Diabetes,Lisinopril,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Michael Wilson,70,Female,Hypertension,Metformin,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Sarah Johnson,40,Female,Hypertension,Atorvastatin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Robert Brown,60,Male,Asthma,None,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Senior,1,0
+Laura Martinez,35,Male,Asthma,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,60,Male,Hypertension,Albuterol,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Sarah Johnson,40,Female,Hypertension,Lisinopril,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,25,Other,Hypertension,None,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Young,0,0
+John Doe,35,Female,Asthma,None,2020-01-15,130/85,160.0,,0987654321,2020,1,130.0,85.0,Adult,0,0
+David Lee,40,Other,Asthma,Lisinopril,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+James Taylor,40,Female,Hypertension,Albuterol,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Emily Davis,35,Female,Heart Disease,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,60,Male,Heart Disease,None,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Senior,0,0
+Sarah Johnson,70,Other,Asthma,None,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Senior,0,0
+Robert Brown,40,Female,Asthma,Atorvastatin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Sarah Johnson,40,Female,Diabetes,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+David Lee,40,Male,Diabetes,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,70,Male,Diabetes,None,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Senior,0,0
+Mary Clark,60,Other,Asthma,Atorvastatin,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,60,Female,Asthma,Lisinopril,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+David Lee,40,Other,Asthma,Albuterol,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,40,Female,Heart Disease,Lisinopril,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,60,Other,Asthma,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,70,Male,Heart Disease,Atorvastatin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Emily Davis,35,Female,Diabetes,Metformin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,25,Other,Diabetes,Lisinopril,2020-01-15,,160.0,,,2020,1,130.0,85.0,Young,0,1
+James Taylor,25,Male,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+David Lee,25,Male,Hypertension,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Young,0,1
+John Doe,40,Other,Hypertension,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Robert Brown,40,Female,Asthma,Atorvastatin,2020-01-15,,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,1
+James Taylor,60,Female,Asthma,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,1
+John Doe,35,Male,Asthma,Lisinopril,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+James Taylor,70,Female,Hypertension,Metformin,2020-01-15,110/70,200.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,35,Female,Hypertension,Metformin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,70,Female,Asthma,Atorvastatin,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Senior,1,1
+Sarah Johnson,40,Male,Asthma,Atorvastatin,2020-01-15,120/80,200.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+Michael Wilson,25,Other,Asthma,None,2020-01-15,,220.0,,0987654321,2020,1,130.0,85.0,Young,1,0
+Sarah Johnson,40,Female,Asthma,Metformin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Mary Clark,40,Male,Asthma,None,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,0
+Michael Wilson,40,Male,Heart Disease,Albuterol,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Sarah Johnson,70,Other,Hypertension,None,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Senior,0,0
+Michael Wilson,60,Female,Asthma,Lisinopril,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+Michael Wilson,60,Female,Hypertension,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,0
+Emily Davis,70,Other,Hypertension,Atorvastatin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,40,Other,Hypertension,Albuterol,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,40,Male,Heart Disease,Lisinopril,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,40,Male,Diabetes,None,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,0
+James Taylor,40,Other,Asthma,Albuterol,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,40,Female,Diabetes,Albuterol,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+James Taylor,35,Male,Diabetes,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,25,Male,Diabetes,None,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Young,1,0
+John Doe,40,Female,Hypertension,Albuterol,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Michael Wilson,70,Male,Asthma,Albuterol,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Sarah Johnson,25,Female,Hypertension,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Young,0,1
+Sarah Johnson,40,Female,Hypertension,Albuterol,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,1
+Robert Brown,70,Female,Diabetes,Metformin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+David Lee,25,Other,Hypertension,None,2020-01-15,,200.0,,,2020,1,130.0,85.0,Young,0,0
+James Taylor,70,Other,Diabetes,None,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,0
+Mary Clark,40,Other,Asthma,None,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,0
+Laura Martinez,35,Female,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,40,Female,Diabetes,None,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,0
+Laura Martinez,40,Other,Asthma,Albuterol,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Michael Wilson,70,Male,Asthma,Lisinopril,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,60,Female,Heart Disease,Metformin,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Mary Clark,40,Male,Diabetes,Atorvastatin,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Adult,1,1
+Emily Davis,40,Male,Diabetes,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Mary Clark,35,Female,Heart Disease,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,0
+Laura Martinez,35,Female,Heart Disease,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,40,Male,Diabetes,Lisinopril,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,60,Male,Heart Disease,Atorvastatin,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Senior,0,1
+Michael Wilson,40,Other,Hypertension,Metformin,2020-01-15,,220.0,,,2020,1,130.0,85.0,Adult,1,1
+James Taylor,60,Other,Asthma,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Senior,1,0
+Emily Davis,35,Female,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,25,Other,Asthma,Albuterol,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Young,0,1
+John Doe,70,Other,Hypertension,Albuterol,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Senior,0,1
+James Taylor,35,Other,Heart Disease,Atorvastatin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+John Doe,35,Other,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Michael Wilson,40,Male,Heart Disease,Atorvastatin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,40,Female,Diabetes,None,2020-01-15,,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,0
+Robert Brown,40,Other,Asthma,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Sarah Johnson,70,Male,Heart Disease,Atorvastatin,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Jane Smith,40,Male,Asthma,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,0
+Robert Brown,60,Male,Diabetes,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,40,Other,Hypertension,Atorvastatin,2020-01-15,140/90,160.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+James Taylor,25,Other,Hypertension,None,2020-01-15,,180.0,,,2020,1,130.0,85.0,Young,0,0
+Jane Smith,35,Female,Asthma,None,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,0
+Mary Clark,60,Other,Diabetes,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,25,Other,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+Jane Smith,60,Male,Heart Disease,Albuterol,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,60,Female,Diabetes,Atorvastatin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Senior,0,1
+David Lee,35,Other,Hypertension,Atorvastatin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,40,Other,Asthma,None,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,0
+John Doe,40,Male,Asthma,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Sarah Johnson,70,Male,Heart Disease,Atorvastatin,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+John Doe,40,Other,Asthma,Albuterol,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,70,Female,Asthma,None,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Senior,1,0
+John Doe,35,Female,Diabetes,Atorvastatin,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Michael Wilson,35,Male,Asthma,Lisinopril,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Mary Clark,35,Male,Heart Disease,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+James Taylor,25,Other,Diabetes,Albuterol,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Sarah Johnson,70,Male,Asthma,Atorvastatin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,1
+John Doe,40,Other,Diabetes,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,40,Female,Diabetes,Atorvastatin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Jane Smith,60,Female,Asthma,Atorvastatin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+James Taylor,60,Other,Asthma,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Senior,1,0
+Robert Brown,60,Male,Heart Disease,None,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,0
+John Doe,35,Female,Heart Disease,None,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,0
+Michael Wilson,40,Male,Asthma,Lisinopril,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,70,Female,Asthma,Atorvastatin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Sarah Johnson,35,Other,Hypertension,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+John Doe,25,Other,Diabetes,Albuterol,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Young,0,1
+Michael Wilson,60,Other,Asthma,None,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,0
+Michael Wilson,35,Female,Asthma,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,0
+Sarah Johnson,35,Male,Diabetes,Atorvastatin,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,25,Male,Heart Disease,Atorvastatin,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Young,0,1
+Michael Wilson,40,Male,Hypertension,Lisinopril,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Adult,0,1
+David Lee,40,Female,Heart Disease,Lisinopril,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,70,Female,Asthma,None,2020-01-15,120/80,220.0,,0987654321,2020,1,120.0,80.0,Senior,1,0
+Michael Wilson,40,Female,Diabetes,Atorvastatin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,1
+Michael Wilson,60,Female,Asthma,Metformin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,35,Female,Diabetes,Albuterol,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,25,Male,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+Robert Brown,25,Female,Hypertension,Atorvastatin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Young,0,1
+John Doe,40,Female,Asthma,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Michael Wilson,40,Male,Asthma,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+James Taylor,40,Female,Asthma,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+John Doe,35,Male,Hypertension,Atorvastatin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,40,Male,Diabetes,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+Emily Davis,70,Other,Diabetes,Atorvastatin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+John Doe,25,Other,Heart Disease,None,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Young,0,0
+John Doe,25,Other,Diabetes,Albuterol,2020-01-15,140/90,220.0,,0987654321,2020,1,140.0,90.0,Young,1,1
+Laura Martinez,60,Other,Asthma,Lisinopril,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,1
+Jane Smith,60,Female,Asthma,Albuterol,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,1
+Laura Martinez,35,Other,Asthma,Metformin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+David Lee,70,Male,Asthma,Lisinopril,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,40,Female,Hypertension,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,40,Other,Diabetes,Metformin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,1
+Jane Smith,35,Male,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,60,Female,Hypertension,Atorvastatin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+Sarah Johnson,40,Female,Heart Disease,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,0
+Robert Brown,60,Other,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Jane Smith,40,Female,Asthma,Atorvastatin,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Adult,1,1
+John Doe,40,Male,Asthma,Lisinopril,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Sarah Johnson,35,Female,Asthma,Atorvastatin,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Michael Wilson,40,Male,Asthma,None,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Adult,0,0
+James Taylor,70,Female,Diabetes,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Senior,0,1
+John Doe,25,Other,Asthma,None,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Young,0,0
+David Lee,70,Male,Asthma,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,70,Female,Asthma,Atorvastatin,2020-01-15,,220.0,,1234567890,2020,1,130.0,85.0,Senior,1,1
+Michael Wilson,25,Female,Heart Disease,Metformin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Young,0,1
+Jane Smith,70,Female,Heart Disease,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Robert Brown,40,Male,Asthma,Lisinopril,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+David Lee,40,Male,Diabetes,Atorvastatin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Sarah Johnson,40,Male,Diabetes,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,25,Other,Hypertension,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+Sarah Johnson,70,Other,Asthma,Metformin,2020-01-15,140/90,160.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Jane Smith,25,Male,Asthma,Albuterol,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Jane Smith,40,Female,Asthma,Lisinopril,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,1
+Jane Smith,70,Other,Hypertension,Metformin,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,70,Male,Asthma,None,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Senior,0,0
+Jane Smith,60,Female,Asthma,Lisinopril,2020-01-15,140/90,200.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Emily Davis,60,Other,Hypertension,Albuterol,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+James Taylor,40,Female,Diabetes,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,35,Female,Asthma,Metformin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,1
+John Doe,60,Female,Hypertension,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,25,Female,Heart Disease,Atorvastatin,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Young,0,1
+David Lee,60,Other,Diabetes,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,40,Other,Heart Disease,Albuterol,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,70,Other,Diabetes,Atorvastatin,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+John Doe,40,Male,Asthma,Albuterol,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Michael Wilson,70,Other,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Emily Davis,70,Female,Asthma,None,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,0
+Mary Clark,35,Other,Heart Disease,None,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,0
+Laura Martinez,60,Female,Diabetes,Lisinopril,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+John Doe,25,Male,Asthma,None,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Young,0,0
+Mary Clark,25,Female,Hypertension,Metformin,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Young,1,1
+John Doe,40,Female,Asthma,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Emily Davis,70,Female,Hypertension,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,25,Male,Diabetes,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Young,0,1
+Michael Wilson,35,Other,Asthma,Atorvastatin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,70,Other,Asthma,Albuterol,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+Sarah Johnson,35,Male,Diabetes,Atorvastatin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,25,Female,Asthma,Albuterol,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Young,0,1
+Jane Smith,25,Other,Hypertension,None,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Young,0,0
+Robert Brown,40,Male,Asthma,Lisinopril,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+James Taylor,25,Other,Heart Disease,Metformin,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Young,0,1
+David Lee,70,Male,Asthma,Albuterol,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,1
+David Lee,70,Female,Hypertension,Albuterol,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Senior,1,1
+Sarah Johnson,70,Other,Heart Disease,Atorvastatin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,40,Male,Diabetes,None,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,0
+Emily Davis,40,Other,Hypertension,Atorvastatin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Emily Davis,40,Other,Asthma,None,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,0
+Laura Martinez,40,Other,Diabetes,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+James Taylor,40,Male,Diabetes,Atorvastatin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,25,Female,Hypertension,Atorvastatin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Robert Brown,40,Male,Asthma,Albuterol,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,25,Male,Diabetes,None,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Young,0,0
+Mary Clark,25,Male,Asthma,Lisinopril,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Young,0,1
+Robert Brown,25,Female,Heart Disease,Metformin,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Robert Brown,60,Other,Asthma,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,70,Other,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,0
+Michael Wilson,25,Other,Asthma,Albuterol,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Young,0,1
+Jane Smith,60,Female,Asthma,Albuterol,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Mary Clark,40,Other,Heart Disease,None,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,0
+Sarah Johnson,40,Female,Diabetes,Albuterol,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Michael Wilson,70,Other,Heart Disease,Metformin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+Sarah Johnson,40,Other,Diabetes,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,70,Male,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+Michael Wilson,40,Female,Asthma,None,2020-01-15,110/70,200.0,,0987654321,2020,1,110.0,70.0,Adult,0,0
+James Taylor,70,Male,Heart Disease,Atorvastatin,2020-01-15,,220.0,,,2020,1,130.0,85.0,Senior,1,1
+Mary Clark,40,Male,Asthma,Atorvastatin,2020-01-15,140/90,160.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,40,Male,Heart Disease,Lisinopril,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,40,Female,Asthma,Lisinopril,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,40,Female,Diabetes,Albuterol,2020-01-15,120/80,220.0,,0987654321,2020,1,120.0,80.0,Adult,1,1
+James Taylor,40,Other,Asthma,Lisinopril,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,25,Male,Hypertension,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Young,0,1
+James Taylor,35,Other,Hypertension,Atorvastatin,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+James Taylor,60,Male,Asthma,Albuterol,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Sarah Johnson,35,Female,Asthma,Lisinopril,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,35,Female,Asthma,Lisinopril,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+John Doe,70,Female,Asthma,Albuterol,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+Mary Clark,25,Male,Hypertension,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Young,0,0
+Emily Davis,70,Female,Asthma,Albuterol,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+John Doe,25,Male,Hypertension,Atorvastatin,2020-01-15,,220.0,,,2020,1,130.0,85.0,Young,1,1
+Laura Martinez,25,Other,Diabetes,None,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,0
+John Doe,40,Male,Asthma,Metformin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,40,Other,Asthma,Albuterol,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,40,Male,Hypertension,Atorvastatin,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,40,Other,Heart Disease,None,2020-01-15,110/70,220.0,,1234567890,2020,1,110.0,70.0,Adult,1,0
+Sarah Johnson,70,Female,Asthma,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Mary Clark,40,Other,Diabetes,Lisinopril,2020-01-15,110/70,200.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+David Lee,70,Female,Diabetes,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,35,Female,Heart Disease,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Jane Smith,35,Other,Hypertension,Albuterol,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,40,Male,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Laura Martinez,40,Male,Hypertension,None,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,0
+Robert Brown,70,Male,Diabetes,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+David Lee,40,Male,Hypertension,None,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,0
+Robert Brown,70,Male,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+David Lee,40,Female,Hypertension,Albuterol,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,35,Male,Heart Disease,Lisinopril,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Mary Clark,25,Female,Asthma,Lisinopril,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Sarah Johnson,40,Female,Heart Disease,Atorvastatin,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,40,Female,Heart Disease,Albuterol,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,70,Other,Asthma,None,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Senior,0,0
+James Taylor,35,Other,Asthma,Lisinopril,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+David Lee,40,Female,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Michael Wilson,70,Other,Asthma,Albuterol,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Mary Clark,40,Male,Heart Disease,Albuterol,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+David Lee,40,Male,Heart Disease,Metformin,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+James Taylor,60,Female,Diabetes,Metformin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Senior,0,1
+John Doe,25,Male,Diabetes,Lisinopril,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+David Lee,60,Female,Asthma,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Senior,0,1
+Sarah Johnson,35,Female,Asthma,Lisinopril,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Mary Clark,40,Male,Diabetes,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+James Taylor,35,Other,Diabetes,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+John Doe,70,Male,Hypertension,Metformin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Senior,1,1
+Emily Davis,40,Male,Hypertension,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,0
+James Taylor,60,Female,Diabetes,Metformin,2020-01-15,110/70,220.0,,0987654321,2020,1,110.0,70.0,Senior,1,1
+Emily Davis,60,Female,Hypertension,Lisinopril,2020-01-15,140/90,160.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Mary Clark,60,Female,Asthma,Atorvastatin,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Robert Brown,35,Female,Asthma,Albuterol,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+James Taylor,40,Other,Asthma,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,40,Other,Diabetes,Lisinopril,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Emily Davis,70,Other,Heart Disease,None,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Senior,0,0
+Sarah Johnson,40,Female,Diabetes,Metformin,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
+Jane Smith,35,Female,Hypertension,Metformin,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Laura Martinez,70,Female,Heart Disease,Albuterol,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,60,Other,Hypertension,Lisinopril,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Senior,0,1
+John Doe,25,Female,Asthma,Atorvastatin,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Robert Brown,35,Male,Hypertension,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,0
+Mary Clark,35,Male,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+James Taylor,40,Female,Asthma,None,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,0
+Michael Wilson,40,Male,Hypertension,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,35,Male,Hypertension,Albuterol,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,35,Other,Asthma,Albuterol,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,60,Female,Heart Disease,Atorvastatin,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Jane Smith,60,Female,Asthma,Albuterol,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,70,Other,Asthma,Metformin,2020-01-15,140/90,160.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Sarah Johnson,25,Male,Asthma,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+Michael Wilson,40,Male,Heart Disease,Lisinopril,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+James Taylor,25,Female,Asthma,Albuterol,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Young,1,1
+John Doe,70,Male,Diabetes,Atorvastatin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+Michael Wilson,60,Other,Diabetes,Metformin,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Sarah Johnson,40,Other,Heart Disease,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Michael Wilson,60,Female,Asthma,None,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,0
+Sarah Johnson,40,Other,Hypertension,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Sarah Johnson,60,Other,Heart Disease,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+David Lee,40,Female,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Emily Davis,40,Other,Asthma,Atorvastatin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,40,Other,Diabetes,None,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,0
+David Lee,70,Other,Asthma,Metformin,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+James Taylor,40,Male,Heart Disease,Albuterol,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,1
+David Lee,40,Female,Asthma,Lisinopril,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Robert Brown,40,Female,Heart Disease,Albuterol,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Robert Brown,25,Female,Hypertension,Albuterol,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Young,0,1
+Laura Martinez,35,Male,Diabetes,Metformin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,25,Male,Asthma,None,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Young,1,0
+Emily Davis,40,Female,Heart Disease,Atorvastatin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,40,Male,Asthma,Albuterol,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+Sarah Johnson,60,Female,Diabetes,None,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,0
+Jane Smith,40,Male,Hypertension,Atorvastatin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Emily Davis,40,Other,Heart Disease,Albuterol,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+Emily Davis,40,Other,Hypertension,Atorvastatin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,40,Female,Hypertension,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,0
+Sarah Johnson,40,Male,Asthma,Lisinopril,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+John Doe,70,Male,Asthma,None,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Senior,0,0
+Laura Martinez,40,Other,Heart Disease,Metformin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Sarah Johnson,35,Other,Asthma,Atorvastatin,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,35,Male,Heart Disease,Lisinopril,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Adult,0,1
+James Taylor,40,Male,Asthma,Atorvastatin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Jane Smith,70,Male,Hypertension,Atorvastatin,2020-01-15,,160.0,,0987654321,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,60,Male,Diabetes,Albuterol,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Mary Clark,40,Male,Heart Disease,Metformin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,35,Male,Heart Disease,Atorvastatin,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Adult,1,1
+Michael Wilson,60,Female,Asthma,None,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,0
+Sarah Johnson,40,Male,Hypertension,None,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,0
+Mary Clark,60,Other,Hypertension,Albuterol,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+Sarah Johnson,25,Female,Asthma,Metformin,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Emily Davis,35,Male,Hypertension,Metformin,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
+Robert Brown,40,Other,Asthma,None,2020-01-15,130/85,160.0,,0987654321,2020,1,130.0,85.0,Adult,0,0
+Emily Davis,40,Female,Diabetes,Lisinopril,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,1
+John Doe,70,Other,Heart Disease,Albuterol,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+Emily Davis,40,Male,Diabetes,Albuterol,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,1
+John Doe,40,Male,Heart Disease,None,2020-01-15,,180.0,,0987654321,2020,1,130.0,85.0,Adult,0,0
+John Doe,70,Male,Asthma,None,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Senior,1,0
+Mary Clark,70,Male,Hypertension,Lisinopril,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Senior,0,1
+Sarah Johnson,40,Female,Asthma,Lisinopril,2020-01-15,130/85,220.0,,0987654321,2020,1,130.0,85.0,Adult,1,1
+Michael Wilson,60,Female,Asthma,Metformin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Senior,0,1
+Emily Davis,60,Other,Diabetes,Albuterol,2020-01-15,120/80,200.0,,1234567890,2020,1,120.0,80.0,Senior,0,1
+Robert Brown,70,Male,Asthma,Albuterol,2020-01-15,110/70,180.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+John Doe,60,Other,Hypertension,None,2020-01-15,,220.0,,,2020,1,130.0,85.0,Senior,1,0
+Sarah Johnson,25,Female,Asthma,Metformin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Young,1,1
+Jane Smith,70,Male,Asthma,Albuterol,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,70,Male,Asthma,Metformin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Senior,1,1
+Mary Clark,40,Female,Asthma,Metformin,2020-01-15,,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Michael Wilson,60,Female,Hypertension,None,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,0
+David Lee,70,Female,Heart Disease,Metformin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Senior,0,1
+Mary Clark,25,Female,Asthma,Lisinopril,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Young,0,1
+Jane Smith,40,Female,Hypertension,Lisinopril,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,40,Male,Asthma,Atorvastatin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Adult,1,1
+Jane Smith,70,Female,Hypertension,None,2020-01-15,120/80,200.0,,1234567890,2020,1,120.0,80.0,Senior,0,0
+Emily Davis,25,Male,Heart Disease,Atorvastatin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+John Doe,35,Male,Asthma,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,25,Female,Heart Disease,Atorvastatin,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Young,0,1
+James Taylor,25,Female,Diabetes,None,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Young,1,0
+John Doe,40,Male,Asthma,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+James Taylor,40,Female,Heart Disease,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,35,Female,Asthma,Albuterol,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Adult,1,1
+Sarah Johnson,60,Female,Asthma,Metformin,2020-01-15,130/85,200.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+David Lee,60,Other,Asthma,None,2020-01-15,110/70,160.0,,0987654321,2020,1,110.0,70.0,Senior,0,0
+Robert Brown,25,Male,Hypertension,Lisinopril,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Young,0,1
+John Doe,40,Other,Asthma,Lisinopril,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+Michael Wilson,40,Female,Diabetes,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Adult,0,1
+Jane Smith,60,Other,Heart Disease,None,2020-01-15,110/70,200.0,,0987654321,2020,1,110.0,70.0,Senior,0,0
+Michael Wilson,35,Female,Hypertension,Lisinopril,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,40,Other,Heart Disease,None,2020-01-15,,220.0,,,2020,1,130.0,85.0,Adult,1,0
+James Taylor,35,Female,Diabetes,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,70,Other,Diabetes,None,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Senior,0,0
+Robert Brown,70,Other,Asthma,Atorvastatin,2020-01-15,130/85,220.0,,,2020,1,130.0,85.0,Senior,1,1
+Robert Brown,40,Other,Diabetes,None,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,0
+John Doe,60,Male,Heart Disease,None,2020-01-15,130/85,180.0,,0987654321,2020,1,130.0,85.0,Senior,0,0
+Sarah Johnson,40,Male,Asthma,Atorvastatin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,70,Female,Asthma,Albuterol,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Senior,0,1
+James Taylor,25,Other,Heart Disease,Metformin,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Michael Wilson,25,Female,Heart Disease,Albuterol,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Young,0,1
+Robert Brown,60,Female,Diabetes,Lisinopril,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,40,Other,Heart Disease,Albuterol,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Michael Wilson,35,Male,Hypertension,None,2020-01-15,130/85,200.0,,0987654321,2020,1,130.0,85.0,Adult,0,0
+Michael Wilson,40,Other,Diabetes,Albuterol,2020-01-15,,200.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,25,Female,Hypertension,Metformin,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Young,0,1
+Mary Clark,25,Female,Asthma,Metformin,2020-01-15,140/90,200.0,,1234567890,2020,1,140.0,90.0,Young,0,1
+Emily Davis,70,Other,Asthma,Albuterol,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Senior,0,1
+James Taylor,40,Male,Asthma,Metformin,2020-01-15,140/90,160.0,,,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,40,Male,Asthma,Metformin,2020-01-15,140/90,220.0,,,2020,1,140.0,90.0,Adult,1,1
+James Taylor,25,Female,Asthma,Albuterol,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Young,0,1
+Jane Smith,35,Female,Heart Disease,Atorvastatin,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,60,Male,Hypertension,Atorvastatin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,60,Other,Asthma,Lisinopril,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+David Lee,40,Female,Diabetes,Metformin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,60,Male,Hypertension,Albuterol,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Senior,0,1
+Robert Brown,25,Female,Diabetes,Metformin,2020-01-15,,200.0,,0987654321,2020,1,130.0,85.0,Young,0,1
+Sarah Johnson,25,Other,Hypertension,None,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Young,0,0
+John Doe,40,Male,Hypertension,Metformin,2020-01-15,,160.0,,,2020,1,130.0,85.0,Adult,0,1
+David Lee,40,Female,Asthma,Metformin,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Adult,0,1
+John Doe,70,Other,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+James Taylor,40,Female,Asthma,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+John Doe,35,Other,Hypertension,Metformin,2020-01-15,120/80,180.0,,1234567890,2020,1,120.0,80.0,Adult,0,1
+John Doe,60,Other,Heart Disease,Atorvastatin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+David Lee,40,Male,Heart Disease,Lisinopril,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,40,Other,Diabetes,Atorvastatin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+Michael Wilson,70,Female,Diabetes,Atorvastatin,2020-01-15,120/80,200.0,,,2020,1,120.0,80.0,Senior,0,1
+Laura Martinez,40,Other,Asthma,Atorvastatin,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Adult,1,1
+Laura Martinez,25,Other,Hypertension,Metformin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+Robert Brown,60,Male,Diabetes,Metformin,2020-01-15,140/90,180.0,,1234567890,2020,1,140.0,90.0,Senior,0,1
+David Lee,40,Other,Diabetes,Lisinopril,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,1
+Robert Brown,40,Other,Hypertension,None,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,0
+Sarah Johnson,60,Female,Asthma,None,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,0
+Sarah Johnson,25,Male,Diabetes,None,2020-01-15,,180.0,,1234567890,2020,1,130.0,85.0,Young,0,0
+Robert Brown,35,Male,Asthma,Lisinopril,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+David Lee,70,Male,Asthma,None,2020-01-15,130/85,160.0,,1234567890,2020,1,130.0,85.0,Senior,0,0
+Robert Brown,60,Other,Asthma,None,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Senior,0,0
+Laura Martinez,60,Male,Heart Disease,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Senior,0,1
+Mary Clark,35,Other,Heart Disease,Metformin,2020-01-15,110/70,180.0,,0987654321,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,60,Other,Asthma,Metformin,2020-01-15,120/80,220.0,,0987654321,2020,1,120.0,80.0,Senior,1,1
+John Doe,25,Female,Heart Disease,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Young,0,1
+Emily Davis,25,Female,Asthma,Atorvastatin,2020-01-15,,200.0,,,2020,1,130.0,85.0,Young,0,1
+David Lee,35,Female,Hypertension,Atorvastatin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Adult,0,1
+Emily Davis,70,Female,Heart Disease,Metformin,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Sarah Johnson,40,Female,Heart Disease,None,2020-01-15,140/90,180.0,,,2020,1,140.0,90.0,Adult,0,0
+James Taylor,40,Other,Asthma,Atorvastatin,2020-01-15,130/85,220.0,,0987654321,2020,1,130.0,85.0,Adult,1,1
+John Doe,40,Other,Asthma,Lisinopril,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Michael Wilson,60,Male,Hypertension,Atorvastatin,2020-01-15,120/80,200.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+David Lee,40,Other,Asthma,Albuterol,2020-01-15,120/80,180.0,,0987654321,2020,1,120.0,80.0,Adult,0,1
+John Doe,35,Other,Asthma,Atorvastatin,2020-01-15,140/90,220.0,,1234567890,2020,1,140.0,90.0,Adult,1,1
+Emily Davis,35,Female,Asthma,Metformin,2020-01-15,,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,70,Other,Hypertension,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Jane Smith,40,Female,Asthma,Albuterol,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Adult,0,1
+Mary Clark,25,Male,Hypertension,Lisinopril,2020-01-15,130/85,220.0,,1234567890,2020,1,130.0,85.0,Young,1,1
+Michael Wilson,40,Male,Asthma,None,2020-01-15,130/85,160.0,,,2020,1,130.0,85.0,Adult,0,0
+Mary Clark,60,Other,Asthma,Atorvastatin,2020-01-15,120/80,160.0,,,2020,1,120.0,80.0,Senior,0,1
+John Doe,25,Male,Asthma,Albuterol,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Young,0,1
+Sarah Johnson,35,Other,Diabetes,Albuterol,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+Sarah Johnson,40,Male,Heart Disease,Lisinopril,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,40,Female,Asthma,Metformin,2020-01-15,140/90,200.0,,,2020,1,140.0,90.0,Adult,0,1
+Laura Martinez,70,Female,Diabetes,Atorvastatin,2020-01-15,120/80,160.0,,0987654321,2020,1,120.0,80.0,Senior,0,1
+Emily Davis,40,Female,Heart Disease,Albuterol,2020-01-15,110/70,160.0,,,2020,1,110.0,70.0,Adult,0,1
+Laura Martinez,70,Female,Asthma,Lisinopril,2020-01-15,,180.0,,,2020,1,130.0,85.0,Senior,0,1
+Laura Martinez,60,Other,Hypertension,None,2020-01-15,120/80,160.0,,1234567890,2020,1,120.0,80.0,Senior,0,0
+Michael Wilson,40,Male,Heart Disease,Albuterol,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Adult,0,1
+Emily Davis,40,Other,Asthma,Lisinopril,2020-01-15,110/70,200.0,,1234567890,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,40,Female,Diabetes,Metformin,2020-01-15,,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Robert Brown,40,Other,Heart Disease,Metformin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Robert Brown,40,Male,Heart Disease,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Emily Davis,60,Other,Asthma,Albuterol,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Senior,0,1
+Emily Davis,25,Male,Asthma,Atorvastatin,2020-01-15,120/80,180.0,,,2020,1,120.0,80.0,Young,0,1
+Mary Clark,60,Other,Hypertension,Lisinopril,2020-01-15,,200.0,,,2020,1,130.0,85.0,Senior,0,1
+Michael Wilson,70,Male,Asthma,Albuterol,2020-01-15,120/80,220.0,,,2020,1,120.0,80.0,Senior,1,1
+Emily Davis,60,Male,Hypertension,Atorvastatin,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Mary Clark,70,Female,Asthma,Atorvastatin,2020-01-15,110/70,160.0,,1234567890,2020,1,110.0,70.0,Senior,0,1
+Laura Martinez,40,Male,Heart Disease,Albuterol,2020-01-15,130/85,180.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Sarah Johnson,25,Female,Hypertension,Metformin,2020-01-15,130/85,200.0,,,2020,1,130.0,85.0,Young,0,1
+Sarah Johnson,40,Female,Diabetes,Lisinopril,2020-01-15,130/85,180.0,,,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,35,Female,Diabetes,Lisinopril,2020-01-15,110/70,220.0,,,2020,1,110.0,70.0,Adult,1,1
+David Lee,40,Other,Asthma,Metformin,2020-01-15,140/90,180.0,,0987654321,2020,1,140.0,90.0,Adult,0,1
+Mary Clark,70,Other,Asthma,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Senior,0,1
+Mary Clark,40,Other,Asthma,Lisinopril,2020-01-15,,160.0,,1234567890,2020,1,130.0,85.0,Adult,0,1
+Laura Martinez,40,Other,Asthma,Albuterol,2020-01-15,110/70,180.0,,,2020,1,110.0,70.0,Adult,0,1
+Jane Smith,25,Male,Asthma,Albuterol,2020-01-15,110/70,200.0,,,2020,1,110.0,70.0,Young,0,1
+James Taylor,40,Male,Diabetes,Atorvastatin,2020-01-15,120/80,220.0,,1234567890,2020,1,120.0,80.0,Adult,1,1
